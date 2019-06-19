@@ -1,0 +1,4 @@
+import datetime
+name=input("Enter name:")
+age=int(input("your age:"))
+print("name:{}. \nyear when you will turn 95: {}.".format(name,(95-age)+datetime.datetime.now().year))
